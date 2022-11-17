@@ -4,7 +4,8 @@
   "description": "A virtual ecommerce API using Node js, Express js, and Mongoose.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,28 +13,18 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {
-    "admin-bro": "^4.0.1",
-    "admin-bro-expressjs": "^2.0.5",
-    "admin-bro-mongoose": "^0.5.2",
     "apicache": "^1.6.3",
     "bcrypt-nodejs": "0.0.3",
     "bcryptjs": "^2.4.3",
-    "celebrate": "^15.0.0",
-    "connect-flash": "^0.1.1",
     "connect-mongo": "^3.2.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "csurf": "^1.11.0",
-    "debug": "~2.6.9",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "express-formidable": "^1.2.0",
     "express-session": "^1.17.1",
     "express-validator": "^6.4.1",
-    "faker": "^4.1.0",
     "http-errors": "~1.6.3",
-    "jsonwebtoken": "^8.5.1",
-    "mapbox-gl": "^1.10.1",
     "moment": "^2.25.3",
     "mongoose": "^6.0.2",
     "mongoose-aggregate-paginate-v2": "^1.0.4",
@@ -44,7 +35,6 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "session": "^0.1.0",
-    "slugify": "^1.4.0",
     "stripe": "^8.183.0",
     "swagger-jsdoc": "^6.2.5",
     "swagger-ui-express": "^4.6.0"
