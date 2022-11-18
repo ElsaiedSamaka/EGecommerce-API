@@ -34,6 +34,14 @@ const productSchema = Schema({
     type: Date,
     default: Date.now,
   },
+  rating:{
+    rate: Number,
+    count: Number
+  },
+  discount:{
+    type:Number,
+    default: 0
+  }
 });
 
 module.exports = mongoose.model("Product", productSchema);
