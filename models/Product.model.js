@@ -36,6 +36,7 @@ const productSchema = Schema({
   },
   rate:{
     type: Number,
+    default:0
   },
   ratingCount:{
    type:Number,
