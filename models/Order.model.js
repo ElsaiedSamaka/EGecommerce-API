@@ -34,9 +34,6 @@ const orderSchema = Schema({
         title: {
           type: String,
         },
-        productCode: {
-          type: String,
-        },
       },
     ],
   },

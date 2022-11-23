@@ -8,6 +8,9 @@ const productSchema = Schema({
   title: {
     type: String,
     required: true,
+    trim: true,
+    minlength: 3,
+    maxlength: 128
   },
   imagePath: {
     type: String,
@@ -16,10 +19,14 @@ const productSchema = Schema({
   description: {
     type: String,
     required: true,
+    trim: true,
   },
   price: {
     type: Number,
     required: true,
+    trim: true,
+    min: 0,
+    max: 100000,
   },
   
   category: {
@@ -29,6 +36,7 @@ const productSchema = Schema({
   available: {
     type: Boolean,
     required: true,
+    default: true
   },
   createdAt: {
     type: Date,
